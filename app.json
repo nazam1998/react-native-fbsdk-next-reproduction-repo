@@ -14,9 +14,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.nazamraha.reactnativefbsdknextreproductionrepo"
@@ -36,6 +34,17 @@
         "projectId": "26713059-9ff6-475a-b025-597ae3e59d17"
       }
     },
-    "owner": "nazamraha"
+    "owner": "nazamraha",
+    "plugins": [
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "572133061404561",
+          "clientToken": "f482c92ebd37bb99538cd5f17c9304a6",
+          "displayName": "nazam-example-test",
+          "isAutoInitEnabled": true
+        }
+      ]
+    ]
   }
 }
